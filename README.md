@@ -1,5 +1,5 @@
 # InImNet
-Repository with sample code to support the paper 'Imbedding Deep Neural Networks' [OpenReview]](https://openreview.net/forum?id=yKIAXjkJc2F).
+Repository with sample code to support the paper 'Imbedding Deep Neural Networks' [[OpenReview]](https://openreview.net/forum?id=yKIAXjkJc2F).
 
 We include a selection of notebooks to support the results in the paper. These are implemented in Tensorflow using Google Colab. We also include a PyTorch implementation, in development.
 
