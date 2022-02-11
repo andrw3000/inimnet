@@ -1,5 +1,5 @@
 # Imbedding Deep Neural Networks 
-Repository with sample code to support the paper
+Repository with code implementing the paper
 
 Andrew Corbett, Dmitry Kangin, Imbedding Deep Neural Networks, ICLR 2022
 
