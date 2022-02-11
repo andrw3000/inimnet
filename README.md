@@ -39,8 +39,32 @@ The bouncing balls experiment in section 4.1.2 shows the performance of the meth
 | p=3   | <img src="figs/bb_l3.png" width="600" > | 
 
 
-The link on the notebook to reproduce the experiments: [notebooks/discrete_InImNet_tensorflow_time_series_bouncing_balls.ipynb](notebooks/discrete_InImNet_tensorflow_time_series_bouncing_balls.ipynb)
+Notebook: [notebooks/discrete_InImNet_tensorflow_time_series_bouncing_balls.ipynb](notebooks/discrete_InImNet_tensorflow_time_series_bouncing_balls.ipynb)
 
+## Extrapolation results
+We implement the experiments on extrapolating beyond the optimised layers, described in Sections 4.2 and F.3, in [notebooks/discrete_InImNet_tensorflow_time_series_bouncing_balls_coupled_weights.ipynb](notebooks/discrete_InImNet_tensorflow_time_series_bouncing_balls_coupled_weights.ipynb) and [notebooks/discrete_inimnet_rotating_mnist_coupled_layers.ipynb](notebooks/discrete_inimnet_rotating_mnist_coupled_layers.ipynb) for the bouncing ball and rotating MNIST tasks respectively.
+
+## End-to-end convolutional model
+
+Using [notebooks/discrete_InImNet_tensorflow_time_series_bouncing_balls_conv.ipynb](notebooks/discrete_InImNet_tensorflow_time_series_bouncing_balls_conv.ipynb), we demonstrate the ability of the InImNet architectures to be composed of larger convolutional layers (Section F.4), allowing for end-to-end training of an InImNet model.
+
+|      | Testing (pmin=-3) | Training (pmin = -3) | 
+| :--- | :---                                                    | :---                                                     |
+| GT   | <img src="figs/cnn_bballs_testing_gt.png" width="600" > | <img src="figs/cnn_bballs_training_gt.png" width="600" > |
+| p=0  | <img src="figs/cnn_bballs_testing_0.png" width="600" >  | <img src="figs/cnn_bballs_training_0.png" width="600" >  |
+| p=-1 | <img src="figs/cnn_bballs_testing_1.png" width="600" >  | <img src="figs/cnn_bballs_training_1.png" width="600" >  |
+| p=-2 | <img src="figs/cnn_bballs_testing_2.png" width="600" >  | <img src="figs/cnn_bballs_training_2.png" width="600" >  |
+| p=-3 | <img src="figs/cnn_bballs_testing_1.png" width="600" >  | <img src="figs/cnn_bballs_training_1.png" width="600" >  |
+| :--- | :---                                                    | :---                                                     |
+|      | Testing (pmin=-2) | Training (pmin = -2) | 
+| GT   | <img src="figs/cnn_bballs_testing_p2_gt.png" width="600" > | <img src="figs/cnn_bballs_training_p2_gt.png" width="600" > |
+| p=0  | <img src="figs/cnn_bballs_testing_p2_0.png" width="600" >  | <img src="figs/cnn_bballs_training_p2_0.png" width="600" >  |
+| p=-1 | <img src="figs/cnn_bballs_testing_p2_1.png" width="600" >  | <img src="figs/cnn_bballs_training_p2_1.png" width="600" >  |
+| p=-2 | <img src="figs/cnn_bballs_testing_p2_2.png" width="600" >  | <img src="figs/cnn_bballs_training_p2_2.png" width="600" >  |
+|      | Testing (pmin=-1) | Training (pmin = -1) | 
+| GT   | <img src="figs/cnn_bballs_testing_p1_gt.png" width="600" > | <img src="figs/cnn_bballs_training_p1_gt.png" width="600" > |
+| p=0  | <img src="figs/cnn_bballs_testing_p1_0.png" width="600" >  | <img src="figs/cnn_bballs_training_p1_0.png" width="600" >  |
+| p=-1 | <img src="figs/cnn_bballs_testing_p1_1.png" width="600" >  | <img src="figs/cnn_bballs_training_p1_1.png" width="600" >  |
 
 ---
 
