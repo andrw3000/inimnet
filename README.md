@@ -1,5 +1,5 @@
 # Imbedding Deep Neural Networks 
-Repository with code implementing the paper Imbedding Deep Neural Networks, ICLR 2022 by
+Repository with code implementing the paper *Imbedding Deep Neural Networks, ICLR 2022* by
 Andrew Corbett & Dmitry Kangin 
 [[OpenReview](https://openreview.net/forum?id=yKIAXjkJc2F)][[arXiv](https://arxiv.org/abs/2202.00113)].
 
