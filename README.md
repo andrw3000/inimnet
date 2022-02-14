@@ -45,7 +45,7 @@ We implement the experiments on extrapolating beyond the optimised layers, descr
 
 ## End-to-end convolutional model
 
-Using [notebooks/discrete_InImNet_tensorflow_time_series_bouncing_balls_conv.ipynb](notebooks/discrete_InImNet_tensorflow_time_series_bouncing_balls_conv.ipynb), we demonstrate the ability of the InImNet architectures to be composed of larger convolutional layers (Section F.4), allowing for end-to-end training of an InImNet model.
+Using [notebooks/bouncing_balls_with_conv.ipynb](notebooks/bouncing_balls_with_conv.ipynb), we demonstrate the ability of the InImNet architectures to be composed of larger convolutional layers (Section F.4), allowing for end-to-end training of an InImNet model.
 
 |      | Testing (pmin=-3) | Training (pmin = -3) | 
 | :--- | :---                                                    | :---                                                     |
