@@ -12,8 +12,8 @@ We include a selection of notebooks to support the results in the paper. These a
 # Experiments
 The experiments are contained within the 'notebooks' folder and are adapted for Google Colab. 
 
-The rotating MNIST and bouncing balls data have been obtained from [Yildiz et al., NeurIPS 2019](https://papers.nips.cc/paper/2019/hash/99a401435dcb65c4008d3ad22c8cdad0-Abstract.html) 
-via the [implementation](https://github.com/uncbiag/neuro_shooting/tree/master/demos/neurips20) of [Vialard et al., NeurIPS 2020](https://github.com/uncbiag/neuro_shooting/tree/master/demos/neurips20)
+The rotating MNIST and bouncing balls data have been obtained in line with [Yildiz et al., NeurIPS 2019](https://papers.nips.cc/paper/2019/hash/99a401435dcb65c4008d3ad22c8cdad0-Abstract.html) 
+via the [implementation](https://github.com/uncbiag/neuro_shooting/tree/master/demos/neurips20) of [Vialard et al., NeurIPS 2020](https://github.com/uncbiag/neuro_shooting/tree/master/demos/neurips20).
 
 ## Rotating MNIST
 The experiment in section 4.1.1 of the paper compares the proposed model's performance with the existing ones. 
@@ -26,7 +26,7 @@ The experiment in section 4.1.1 of the paper compares the proposed model's perfo
 | p=3   | <img src="figs/seed_7_data_sample_pred_training_230_3.png" width="600" > | 
 | p=4   | <img src="figs/seed_7_data_sample_pred_training_230_4.png" width="600" > | 
 
-The experiment was performed using [notebooks/run_rotmnist.ipynb](notebooks/run_rotmnist.ipynb)
+The experiment was performed using [notebooks/run_rotmnist.ipynb](notebooks/run_rotmnist.ipynb).
 
 ## Bouncing balls
 The bouncing balls experiment in section 4.1.2 shows the performance of the method on the bouncing balls task. 
@@ -38,7 +38,7 @@ The bouncing balls experiment in section 4.1.2 shows the performance of the meth
 | p=2   | <img src="figs/bb_l2.png" width="600" > | 
 | p=3   | <img src="figs/bb_l3.png" width="600" > | 
 
-Notebook: [notebooks/bouncing_balls_in_tensorflow.ipynb](notebooks/bouncing_balls_training.ipynb)
+Notebook: [notebooks/bouncing_balls_in_tensorflow.ipynb](notebooks/bouncing_balls_training.ipynb).
 
 ## Extrapolation results
 We implement the experiments on extrapolating beyond the optimised layers, described in Sections 4.2 and F.3, in [notebooks/bouncing_balls_with_coupled_weights.ipynb](notebooks/bouncing_balls_with_coupled_weights.ipynb) and [notebooks/rotating_mnist_with_coupled_layers.ipynb](notebooks/rotating_mnist_with_coupled_layers.ipynb) for the bouncing ball and rotating MNIST tasks respectively.
