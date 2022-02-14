@@ -1,8 +1,7 @@
 # Imbedding Deep Neural Networks 
-Repository with code implementing the paper
-
-Andrew Corbett, Dmitry Kangin, Imbedding Deep Neural Networks, ICLR 2022
-[[OpenReview](https://openreview.net/forum?id=yKIAXjkJc2F)][[arXiv](https://arxiv.org/abs/2202.00113)]
+Repository with code implementing the paper Imbedding Deep Neural Networks, ICLR 2022 by
+Andrew Corbett & Dmitry Kangin 
+[[OpenReview](https://openreview.net/forum?id=yKIAXjkJc2F)][[arXiv](https://arxiv.org/abs/2202.00113)].
 
 
 We include a selection of notebooks to support the results in the paper. These are implemented in Tensorflow using Google Colab. We also include a PyTorch implementation, [inimsolve](inimsolve), in development.
