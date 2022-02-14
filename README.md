@@ -41,7 +41,7 @@ The bouncing balls experiment in section 4.1.2 shows the performance of the meth
 Notebook: [notebooks/bouncing_balls_in_tensorflow.ipynb](notebooks/bouncing_balls_training.ipynb)
 
 ## Extrapolation results
-We implement the experiments on extrapolating beyond the optimised layers, described in Sections 4.2 and F.3, in [notebooks/discrete_InImNet_tensorflow_time_series_bouncing_balls_coupled_weights.ipynb](notebooks/discrete_InImNet_tensorflow_time_series_bouncing_balls_coupled_weights.ipynb) and [notebooks/rotating_mnist_coupled_layers.ipynb](notebooks/rotating_mnist_coupled_layers.ipynb) for the bouncing ball and rotating MNIST tasks respectively.
+We implement the experiments on extrapolating beyond the optimised layers, described in Sections 4.2 and F.3, in [notebooks/bouncing_balls_with_coupled_weights.ipynb](notebooks/bouncing_balls_with_coupled_weights.ipynb) and [notebooks/rotating_mnist_with_coupled_layers.ipynb](notebooks/rotating_mnist_with_coupled_layers.ipynb) for the bouncing ball and rotating MNIST tasks respectively.
 
 ## End-to-end convolutional model
 
