@@ -2,7 +2,6 @@
 Repository with code implementing the paper
 
 Andrew Corbett, Dmitry Kangin, Imbedding Deep Neural Networks, ICLR 2022
-
 [[OpenReview](https://openreview.net/forum?id=yKIAXjkJc2F)][[arXiv](https://arxiv.org/abs/2202.00113)]
 
 
